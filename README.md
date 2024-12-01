@@ -4,9 +4,13 @@ this game is home work in week 3
 A game that has one player with a weapon that shoots an ghost that appears every few seconds and if the enemy hits the player
 the player will die 
 ## player:
-this the player in my game
+this the player in my game:- 
 ![stand](https://github.com/user-attachments/assets/47c43b6f-b539-4515-a08e-4a7031f45a89)
+
 ## enemy: 
+this the enemy in my game :- ![Ghost1](https://github.com/user-attachments/assets/2ef239cb-1c9f-43b6-a9e9-b76f752f70cd)
+can add another enemys like:- 
+
 
 ## How to play the game:
 * Arrows- make the player 
