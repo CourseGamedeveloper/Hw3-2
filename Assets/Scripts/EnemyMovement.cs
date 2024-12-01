@@ -3,18 +3,20 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField]
-    [Tooltip("speed the enemy movement")]
+    [Tooltip("Speed of the enemy movement")]
     private float speed;
+
     private Rigidbody2D _rigidbody;
-    [Tooltip("this gameobject is target make the enemy attack ")]
+
+    [Tooltip("This GameObject is the target that the enemy will attack")]
     public GameObject Player;
+
     private float distance;
 
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        Player = GameObject.FindWithTag("Player");
-        
+        Player = GameObject.FindWithTag("Player"); // Assign the Player GameObject dynamically
     }
 
     void Update()
@@ -36,5 +38,4 @@ public class EnemyMovement : MonoBehaviour
             _rigidbody.linearVelocity = Vector2.zero;
         }
     }
-  
 }
