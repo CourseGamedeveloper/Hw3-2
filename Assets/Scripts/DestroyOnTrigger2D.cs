@@ -7,7 +7,7 @@ using UnityEngine;
 public class DestroyOnTrigger2D : MonoBehaviour
 {
     [Tooltip("Every object tagged with this tag will trigger the destruction of this object")]
-    [SerializeField] string triggeringTag;
+    [SerializeField] private string triggeringTag;
     private Animator animator;
 
     private void Start()
@@ -27,13 +27,9 @@ public class DestroyOnTrigger2D : MonoBehaviour
 
     private IEnumerator DestroyAfterAnimation()
     {
-        // Wait for the length of the "death" animation
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         Destroy(gameObject); // Destroy this GameObject after the animation is done
     }
 
-    private void Update()
-    {
-        
-    }
+    private void Update() { }
 }
