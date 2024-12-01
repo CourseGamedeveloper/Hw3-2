@@ -17,7 +17,6 @@ public class EnemySpawner : MonoBehaviour
 
     void Update()
     {
-        // Spawner enemy
         timeUntilSpwan -= Time.deltaTime;
         if (timeUntilSpwan <= 0)
         {
