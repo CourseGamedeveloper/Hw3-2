@@ -9,7 +9,9 @@ this the player in my game:-
 
 ## enemy: 
 this the enemy in my game :- ![Ghost1](https://github.com/user-attachments/assets/2ef239cb-1c9f-43b6-a9e9-b76f752f70cd)
-can add another enemys like:- 
+
+can add another enemys like:- ![thing1](https://github.com/user-attachments/assets/6528e727-6679-4f02-944e-21177674134c)
+
 
 
 ## How to play the game:
