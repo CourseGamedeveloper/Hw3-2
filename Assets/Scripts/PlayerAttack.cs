@@ -4,7 +4,7 @@ public class PlayerAttack : MonoBehaviour
 {
     private Animator animator;
     [SerializeField]
-    private GameObject bulletPrefab; 
+    private GameObject bulletPrefab;
     private bool fireContinuously;
 
     void Start()
@@ -31,13 +31,11 @@ public class PlayerAttack : MonoBehaviour
         {
             animator.SetTrigger("shooter");
         }
-        Vector3 pos=new Vector3(transform.position.x+1.5f, transform.position.y+1f,transform.position.z);
+
+        Vector3 pos = new Vector3(transform.position.x + 1.5f, transform.position.y + 1f, transform.position.z);
 
         // Instantiate and fire the bullet
         GameObject bullet = Instantiate(bulletPrefab, pos, Quaternion.identity);
         bullet.GetComponent<Bullet>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
-
-
-
 }
