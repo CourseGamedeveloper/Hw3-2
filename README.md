@@ -6,7 +6,7 @@ the player will die
 ## How to play the game:
 * Arrows- make the player 
 * space- make the player jump
-* click right on mouse- make the player shoot to kill the ghost
+* click left on mouse- make the player shoot to kill the ghost
   
 ## link:
 * link to unity store for the kit :- https://assetstore.unity.com/packages/2d/characters/gothicvania-swamp-152865
